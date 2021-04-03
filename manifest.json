@@ -8,6 +8,10 @@
     {
       "css": ["fixer.css"],
       "matches": ["https://martinfowler.com/*", "https://refactoring.com/*"]
+    },
+    {
+      "js": ["title.js"],
+      "matches": ["https://martinfowler.com/"]
     }
   ]
 }
