@@ -1,0 +1,13 @@
+{
+  "name": "Martin Fowler Fixer",
+  "description": "Fix the goddamn site!!",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "content_scripts": [
+    {
+      "css": ["fixer.css"],
+      "matches": ["https://martinfowler.com/*", "https://refactoring.com/*"]
+    }
+  ]
+}
